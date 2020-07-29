@@ -1,23 +1,15 @@
 [user]
-	signingKey = 822B03FBDEEA045B
-	name = Marc Qualie
-	email = marc@marcqualie.com
+	name = Carl Markham
+	email = carl.markham@elasticpath.com
 
 [github]
-	user = marcqualie
-
-[gpg]
-	program = /usr/local/bin/gpg
+	user = cjmarkham
 
 [credential]
 	helper = osxkeychain
 
 [color]
 	ui = auto
-
-[commit]
-	gpgSign = true
-	verbose = true
 
 [core]
 	excludesfile = ~/.gitignore-global
@@ -47,3 +39,9 @@
 	default = simple
 [pull]
 	rebase = true
+
+[alias]
+  s = status
+  co = checkout
+  b = branch
+  f = fetch

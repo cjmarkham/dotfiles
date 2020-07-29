@@ -1,18 +1,11 @@
 #!/usr/local/bin/zsh
 
-alias gs="git status -s"
-alias gd="git diff"
-alias gf="git fetch --all --prune"
-alias gfo="git fetch origin --prune"
-alias gb="git --no-pager branch -vv"
-alias gba="git --no-pager branch -avv"
-alias gcb="git checkout -b"
-alias gcm="git commit -m"
-alias gcam="git commit -a -m"
-alias gpoh="git push -u origin HEAD"
-
-# https://marcqualie.com/2015/08/remove-deleted-git-branches
-alias gbc="git --no-pager branch -vv | grep ': gone]' | awk '{print \$1}' | xargs git branch -D"
-alias git-branch-cleanup="gbc"
-
+alias drc="docker rm -f $1"
+alias dri="docker rmi -f $1"
+alias drca="docker rm -f $(docker ps -aq)"
+alias dria="docker rmi -f $(docker images)"
+alias kcred="export AWS_PROFILE=dev-eks && kubectl"
+alias kcblue="export AWS_PROFILE=staging-blue-readonly && kubectl"
+alias j11="export JAVA_HOME=`/usr/libexec/java_home -v 11`; java -version"
+alias j13="export JAVA_HOME=`/usr/libexec/java_home -v 13`; java -version"
 alias rspec="bundle exec rspec"
