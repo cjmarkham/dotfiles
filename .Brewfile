@@ -42,5 +42,7 @@ brew "zsh"
 cask "dropbox"
 cask "hyper"
 cask "visual-studio-code"
+cask "google-chrome"
 mas "Numbers", id: 409203825
 mas "Xcode", id: 497799835
+mas "Slack", id: 803453959
