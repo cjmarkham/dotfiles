@@ -40,7 +40,6 @@ brew "tig"
 brew "wget"
 brew "zsh"
 cask "dropbox"
-cask "hyper"
 cask "visual-studio-code"
 cask "google-chrome"
 mas "Numbers", id: 409203825
