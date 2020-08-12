@@ -1,8 +1,0 @@
-Apps that can only be downloaded on their respective site
-
-Homebrew
-Iterm2
-Postman
-Table Plus
-Github Desktop
-Zoom

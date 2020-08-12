@@ -1,6 +1,7 @@
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/services"
+
 brew "autoconf"
 brew "automake"
 brew "awscli"
@@ -39,9 +40,17 @@ brew "siege"
 brew "tig"
 brew "wget"
 brew "zsh"
+
+cask "1password"
 cask "dropbox"
-cask "visual-studio-code"
+cask "github"
 cask "google-chrome"
+cask "iterm2"
+cask "postman"
+cask "tableplus"
+cask "visual-studio-code"
+cask "zoomus"
+
 mas "Numbers", id: 409203825
-mas "Xcode", id: 497799835
 mas "Slack", id: 803453959
+mas "Xcode", id: 497799835
