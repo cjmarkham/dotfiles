@@ -4,8 +4,6 @@ export ZSH=$HOME/.oh-my-zsh
 export SHELL=/usr/local/bin/zsh
 export UPDATE_ZSH_DAYS=7
 export LANG=en_US.UTF-8
-
-# Some homebrew forumlae install to /usr/local/sbin
 export GOPATH=$HOME/go
 export PATH=/usr/local/sbin:$PATH
 export PATH=$PATH:$HOME/bin
@@ -21,7 +19,6 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/functions.sh
 source ~/.zsh/aliases.sh
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Trigger loadenv as soon as shell is available. Also triggered on directory change
 loadenv

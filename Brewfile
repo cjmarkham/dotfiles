@@ -43,6 +43,7 @@ brew "zsh"
 
 cask "1password"
 cask "dropbox"
+cask "flux"
 cask "github"
 cask "google-chrome"
 cask "iterm2"
